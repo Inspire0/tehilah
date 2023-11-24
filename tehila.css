@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: Poppins, sans-serif;
+    /* padding-left: 2px;
+    padding-right: 2px; */
+}
+.circle {
+    @apply flex flex-wrap h-24 w-24 bg-secondarycolor rounded-full justify-center items-center
+}
+
+.btn {
+    @apply text-xl rounded-xl bg-primarycolor text-white px-5 py-3 capitalize font-bold hover:opacity-80 ease-in duration-200
+}
+.btnmobile {
+    @apply text-xl rounded-xl bg-primarycolor text-white px-2 py-3 capitalize font-bold hover:opacity-80 ease-in duration-200
+}
+
+.secondbtn {
+    @apply text-xl rounded-xl border-secondarycolor border-solid border-2 bg-none text-white px-3 py-3 capitalize font-bold hover:opacity-80 ease-in duration-200
+}
+.secondbtnmobile {
+    @apply text-lg rounded-xl border-secondarycolor border-solid border-2 bg-none text-white p-2 capitalize font-bold hover:opacity-80 ease-in duration-200
+}
+
+:root {
+    /* var(--swiper-navigation-color,var(--swiper-theme-color)) */
+    --swiper-navigation-color: white 
+}

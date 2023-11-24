@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/tehilaoutput.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/312476e82f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Services</title>
+  </head>
+  <body class="max-w-[2000px] mx-auto my-0">
+    <header class="bg-white fixed top-0 left-0 right-0 z-20">
+      <nav
+        class="max-w-[1250px] m-auto px-5 flex justify-between items-center mt-2"
+      >
+        <div>
+          <a href="index.html"
+            ><img src="./Images/TEHILA LOGO.png" alt="" class="h-20"
+          /></a>
+        </div>
+        <div class="flex">
+          <ul class="hidden lg:flex items-center space-x-10 text-xl">
+            <li><a id="hlink" href="index.html">Home</a></li>
+            <li><a id="hlink" href="about.html">About Us</a></li>
+            <li><a id="hlink" href="services.html">Service</a></li>
+            <li><a id="hlink" href="contact.html">Contact Us</a></li>
+            <li>
+              <a href="donate.html"
+                ><button class="hidden lg:block btn">Donate</button></a
+              >
+            </li>
+          </ul>
+
+          <div></div>
+        </div>
+
+        <!-- mobile navbar -->
+        <div id="hamburger" class="cursor-pointer lg:hidden z-50">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div id="menu" class="hidden bg-white h-[100vh] absolute inset-0">
+          <ul id="menu" class="py-2 text-xl h-full grid place-items-center">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Service</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li>
+              <a href="donate.html"
+                ><button class="lg:block btn">Donate</button></a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- first section -->
+    <section id="firstsection" class="bg-purple p-5 mt-24 mb-5">
+      <div class="max-w-[1200px] m-auto">
+        <h2 class="text-2xl font-bold lg:mt-10 lg:mb-3">Our Services</h2>
+        <p class="text-justify">
+          Tehilah Foundation is a Non-governmental Organization that has it's
+          core concern in the well-being of people who are truly in desperate
+          conditions and sincerely could use some assistance to create a better
+          life and consequently a better society.
+        </p>
+      </div>
+    </section>
+
+    <!-- OUR SERVICE SECTION OR SECOND SECTION-->
+
+    <section id="Secondsection">
+      <div>
+        <div class="flex justify-center items-center">
+          <div
+            class="grid place-items-center grid-cols-1 gap-5 md:grid-cols-2 md:gap-10 lg:grid-cols-3 lg:gap-10"
+          >
+            <div>
+              <div class="swiper h-80 w-96 rounded-md p-5">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide px-5">
+                    <img
+                      src="Images/provision 1.jpg"
+                      class="h-80 w-96"
+                      alt=""
+                    />
+                  </div>
+
+                  <div class="swiper-slide px-5">
+                    <img
+                      src="Images/provision 2.jpg"
+                      class="h-80 w-96"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+              <div class="w-96 px-5">
+                <h3 class="text-lg font-bold mt-5">Provision</h3>
+                <p>
+                  Providing food, housing, personal care products and financial
+                  aid for orphans, needy and widows
+                </p>
+              </div>
+            </div>
+
+            <div>
+              <div class="swiper h-80 w-96 rounded-md p-5">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide px-5">
+                    <img src="Images/support 2.jpg" class="h-80 w-96" alt="" />
+                  </div>
+
+                  <div class="swiper-slide px-5">
+                    <img src="Images/support 3.jpg" class="h-80 w-96" alt="" />
+                  </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+              <div class="w-96 px-5">
+                <h3 class="text-lg font-bold mt-5">Support</h3>
+                <p>
+                  Supporting students with necessary school materials and
+                  Scholarships
+                </p>
+              </div>
+            </div>
+
+            <div>
+              <div class="swiper h-80 w-96 rounded-md p-5">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide px-5">
+                    <img src="Images/Help 1.jpg" class="h-80 w-96" alt="" />
+                  </div>
+                </div>
+                <div class="swiper-button-prev text-lg"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+              <div class="w-96 px-5">
+                <h3 class="text-lg font-bold mt-5">Help</h3>
+                <p>
+                  Helping the female child with hygiene products and clothing
+                  for kids in need
+                </p>
+              </div>
+            </div>
+
+            <div>
+              <div class="swiper h-80 w-96 rounded-md p-5">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide px-5">
+                    <img src="Images/support 1.jpg" class="h-80 w-96" alt="" />
+                  </div>
+                </div>
+                <div class="swiper-button-prev text-lg"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+              <div class="w-96 px-5">
+                <h3 class="text-lg font-bold mt-5">Funds Raising</h3>
+                <p>
+                  Fund raising to aid children whose parents are not able to
+                  meet their academic needs, housing of widows, student
+                  scholarships
+                </p>
+              </div>
+            </div>
+            <div>
+              <div class="bg-ash h-80 w-96 rounded-md p-5"></div>
+              <div class="w-96 px-5">
+                <h3 class="text-lg font-bold mt-5">Employment Advice</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  eiusmod tempor incididunt ut labore et dolore magna.
+                </p>
+              </div>
+            </div>
+            <div>
+              <div class="bg-ash h-80 w-96 rounded-md p-5"></div>
+              <div class="w-96 px-5">
+                <h3 class="text-lg font-bold mt-5">Charity' Representative</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  eiusmod tempor incididunt ut labore et dolore magna.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAKE A DONATION OR SIXTH SECTION -->
+
+    <section>
+      <div class="bg-primarycolor flex justify-center items-center mt-10 h-60">
+        <div
+          class="bg-primarycolor w-80 md:w-[900px] lg:w-[1150px] rounded-md text-white text-justify md:grid md:grid-cols-2 md:gap-10 lg:grid lg:grid-cols-2 lg:gap-10"
+        >
+          <div>
+            <h3 class="text-2xl font-bold mb-2">Make a Donation</h3>
+            <p>
+              Support our community by donating today. Help us be there for them
+              in their time of need.
+            </p>
+          </div>
+          <div>
+            <a href="donate.html"
+              ><button class="secondbtn w-80 md:w-96 lg:w-96 mt-5">
+                Donate
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER SECTION  -->
+    <!-- FOOTER SECTION  -->
+    <footer class="bg-black">
+      <div
+        class="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-10 lg:gap-20 md:gap-20 max-w-[1400px] md:m-auto lg:m-auto px-3 text-white text-justify"
+      >
+        <div class="leftcontent">
+          <div class="md:flex lg:flex justify-center items-center">
+            <div class="logo md:flex lg:flex justify-center">
+              <img
+                src="Images/TEHILA LOGO.png"
+                alt="Our Logo"
+                class="h-24 mb-3 mr-5 mt-5"
+              />
+              <div class="md:mt-10 lg:mt-10">
+                <h4>Sign Up to Our Newsletter</h4>
+                <input
+                  type="text"
+                  class="email w-[350px] rounded-md md:w-60 lg:w-80 py-1 px-3 mb-2 md:mb-0 lg:mb-0 border-2 border-black text-black text-sm"
+                  placeholder="Email"
+                />
+                <button
+                  class="bg-primarycolor rounded-md w-[350px] md:w-20 lg:w-20 py-1 border-none mb-3 md:mb-0 lg:mb-0 font-bold"
+                >
+                  Sign Up
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <p class="md:pl-10 lg:pl-10">
+            Be the first to hear about our outreaches and life-changing
+            activities we offer for a better community.
+          </p>
+        </div>
+
+        <div class="rightcontent pb-5">
+          <div class="socialhandles mb-5 md:pt-10 lg:pt-10">
+            <i
+              class="fa-brands fa-facebook text-5xl mr-5 text-secondarycolor"
+            ></i>
+            <i
+              class="fa-brands fa-x-twitter text-5xl mr-5 text-secondarycolor"
+            ></i>
+            <i
+              class="fa-brands fa-instagram text-5xl mr-5 text-secondarycolor"
+            ></i>
+            <i
+              class="fa-brands fa-linkedin-in text-5xl mr-5 text-secondarycolor"
+            ></i>
+          </div>
+          <h5>Opening Hours: 9 am - 4 pm, Mon - Fri</h5>
+          <h5>Call: +2349064619517, +2349069538580</h5>
+          <h5>Email: tehilahfoundation.org@gmail.com</h5>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="swiper.js"></script>
+    <script src="services.js"></script>
+  </body>
+</html>

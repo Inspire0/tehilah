@@ -1,0 +1,20 @@
+{
+  "name": "tehila",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css:build": "tailwindcss -i ./tehila.css -o ./dist/tehilaoutput.css",
+    "css:watch": "tailwindcss -i ./tehila.css -o ./dist/tehilaoutput.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "swiper": "^11.0.3"
+  }
+}
